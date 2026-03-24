@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page - Dr. APJ Abdul Kalam</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #ffffff);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #0d47a1;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc80;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #0d47a1;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* IMAGE */
+        .image-section {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .image-section img {
+            width: 250px;
+            border-radius: 10px;
+            border: 4px solid #0d47a1;
+        }
+
+        /* CONTENT */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 6px solid #0d47a1;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            color: #0d47a1;
+        }
+
+        /* LIST */
+        ul {
+            padding-left: 20px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #0d47a1;
+            color: white;
+            margin-top: 30px;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .image-section img {
+                width: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#inspiration">Inspiration</a>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Dr. APJ Abdul Kalam</h1>
+        <p>Missile Man of India & People's President</p>
+    </header>
+
+    <!-- IMAGE -->
+    <div class="image-section">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/A._P._J._Abdul_Kalam.jpg" alt="APJ Abdul Kalam">
+    </div>
+
+    <!-- CONTENT -->
+    <div class="container">
+
+        <div class="card" id="about">
+            <h2>About</h2>
+            <p>
+                Dr. APJ Abdul Kalam was an Indian aerospace scientist and the 11th President of India. 
+                He played a key role in India's missile and nuclear programs and inspired millions 
+                through his vision for a developed India.
+            </p>
+        </div>
+
+        <div class="card" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Developed India's first satellite launch vehicle (SLV-III)</li>
+                <li>Key figure in Pokhran-II nuclear tests</li>
+                <li>Recipient of Bharat Ratna</li>
+                <li>Served as President of India (2002–2007)</li>
+            </ul>
+        </div>
+
+        <div class="card" id="inspiration">
+            <h2>Inspiration</h2>
+            <p>
+                "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."
+            </p>
+            <p>
+                His life continues to inspire students, scientists, and citizens to work towards 
+                innovation, leadership, and national development.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Tribute Page | Designed with Respect</p>
+    </footer>
+
+</body>
+</html>
